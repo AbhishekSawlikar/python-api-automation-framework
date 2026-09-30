@@ -1,0 +1,10 @@
+{
+  "qa": {
+    "base_url": "https://jsonplaceholder.typicode.com",
+    "timeout": 15
+  },
+  "dev": {
+    "base_url": "https://jsonplaceholder.typicode.com",
+    "timeout": 10
+  }
+}

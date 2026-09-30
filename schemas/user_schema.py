@@ -1,0 +1,12 @@
+USER_RESPONSE_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "id": {"type": "integer"},
+        "name": {"type": "string"},
+        "username": {"type": "string"},
+        "email": {"type": "string"},
+        "phone": {"type": "string"},
+        "website": {"type": "string"}
+    },
+    "required": ["id", "name", "username", "email"]
+}
